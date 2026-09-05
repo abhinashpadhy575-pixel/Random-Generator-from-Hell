@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Your Result</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <video autoplay muted loop id="background-video">
+        <source src="download2.mp4" type="video/mp4">
+    </video>
+
+    <main class="container">
+
+        <div>
+            <h2>What can't you decide?</h2>
+            <label for="decisionInput">Enter Thing You can't Decide:
+            </label>
+            <input type="text" class="option-input" id="decisionInput" placeholder="Enter an option...">
+        </div>
+
+        <div>
+
+            <label for="optionInput">
+                Enter your options:
+            </label>
+
+            <input type="text" class="option-input" id="optionInput" placeholder="Enter an option...">
+            <br>
+            <button id="addButton" class="add-button">
+                ADD OPTION
+            </button>
+
+        </div>
+
+        <div class="options-container">
+
+            <h2>Your Options</h2>
+
+            <ul id="optionsList">
+            </ul>
+
+        </div>
+
+        <div class="decideButton">
+
+            <button id="decideButton" class="decide-button">
+                🎲 DECIDE MY FATE
+            </button>
+
+        </div>
+
+        <section class="result">
+
+            <p>⚠️ FATE IS WAITING...</p>
+
+            <h2 id="resultText">???</h2>
+
+        </section>
+
+        <button id="resetButton" class="reset-button">
+            RESET
+        </button>
+
+    </main>
+
+    <script src="script2.js"></script>
+
+</body>
+
+</html>

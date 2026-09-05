@@ -1,0 +1,66 @@
+h2 {
+  color: #06d366;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+body {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  text-align: center;
+  padding: 200px;
+  font-family: cursive;
+  font-size: 20px;
+}
+.option-input {
+  font-family: cursive;
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.add-button {
+  background-color: rgba(215, 9, 9, 0.31);
+  color: #a6cb0f;
+   text-shadow: 2px 2px 4px #000000;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 190px;
+  height: 60px;
+}
+.decide-button {
+  background-color: rgba(24, 209, 11, 0.31);
+  color: #0e0e0d;
+   text-shadow: 2px 2px 4px #000000;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 240px;
+  height: 60px;
+}
+.reset-button {
+  background-color: rgba(215, 9, 9, 0.31);
+  color: #a6cb0f;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 190px;
+  height: 60px;
+}
