@@ -4,6 +4,9 @@ h2 {
   font-size: 24px;
   margin-bottom: 20px;
 }
+.initial{
+color: #a7d012;
+}
 #background-video {
   position: fixed;
   top: 0;
@@ -22,17 +25,20 @@ body {
   padding: 200px;
   font-family: cursive;
   font-size: 20px;
+  overflow: hidden;
 }
 .option-input {
   font-family: cursive;
+  color: aqua;
+  border: #000000;
   font-size: 20px;
   padding: 10px;
   margin-bottom: 20px;
 }
 .add-button {
-  background-color: rgba(215, 9, 9, 0.31);
-  color: #a6cb0f;
-   text-shadow: 2px 2px 4px #000000;
+  background-color: #7a2cbfa9;
+  color: #100216;
+  text-shadow: 2px 2px 4px #400bd3;
   border: none;
   border-radius: 30px;
   padding: 10px 20px;
@@ -42,9 +48,9 @@ body {
   height: 60px;
 }
 .decide-button {
-  background-color: rgba(24, 209, 11, 0.31);
-  color: #0e0e0d;
-   text-shadow: 2px 2px 4px #000000;
+  background-color: #2e8b56d9;
+  color: white;
+  text-shadow: 2px 2px 4px #dad8d8;
   border: none;
   border-radius: 30px;
   padding: 10px 20px;
@@ -54,8 +60,9 @@ body {
   height: 60px;
 }
 .reset-button {
-  background-color: rgba(215, 9, 9, 0.31);
-  color: #a6cb0f;
+  background-color: #2bc03c6c;
+  color: #171910;
+  text-shadow: 2px 2px 4px #dad8d8;
   border: none;
   border-radius: 30px;
   padding: 10px 20px;
@@ -63,4 +70,7 @@ body {
   font-size: 20px;
   width: 190px;
   height: 60px;
+}
+.result{
+  color: #03f1e9;
 }
